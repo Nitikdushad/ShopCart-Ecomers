@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCart - Online Shopping</title>
+    <link rel="stylesheet" href="flipkart.css">
+   
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">ShopCart<span>By Nitik Dushad</span></a>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for products, brands and more">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="nav-buttons">
+                <button class="nav-button">
+                    <span>Hello,</span>
+                    <span>Sign In</span>
+                </button>
+                <button class="nav-button">
+                    <span>Become a</span>
+                    <span>Seller</span>
+                </button>
+                <button class="nav-button">
+                    <span>Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-category"><i class="fas fa-mobile-alt"></i> Mobile & Tablets</div>
+            <div class="sidebar-category"><i class="fas fa-laptop"></i> Electronics</div>
+            <div class="sidebar-category"><i class="fas fa-tshirt"></i> Fashion</div>
+            <div class="sidebar-category"><i class="fas fa-home"></i> Home & Furniture</div>
+            <div class="sidebar-category"><i class="fas fa-car"></i> Vehicles</div>
+            <div class="sidebar-category"><i class="fas fa-gamepad"></i> Toys & Games</div>
+            <div class="sidebar-category"><i class="fas fa-utensils"></i> Grocery</div>
+            <div class="sidebar-category"><i class="fas fa-medal"></i> Sports & Fitness</div>
+            <div class="sidebar-category"><i class="fas fa-book"></i> Books</div>
+            <div class="sidebar-category"><i class="fas fa-paw"></i> Pet Care</div>
+        </div>
+        
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d6720548-d426-4803-8b8a-7fe1ef97efe1.png" alt="Modern electronics sale banner featuring latest smartphones, laptops, and smartwatches with flat design and blue gradient background" />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1488345e-d078-47ce-9fe3-db6dc71fba05.png" alt="Fashion summer sale banner showcasing trendy outfits, sunglasses, and accessories against a yellow background" />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0fdb972b-f5c8-4989-99ee-53efca8b5023.png" alt="Home appliances mega discount offer with washing machines, refrigerators and TVs on a white clean background" />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e33f6343-8e78-46a9-aef8-7ec90f2be3c0.png" alt="Special Diwali festival offer banner with diyas, gifts and fireworks in warm orange and gold colors" />
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <div class="carousel-indicator active" data-index="0"></div>
+                <div class="carousel-indicator" data-index="1"></div>
+                <div class="carousel-indicator" data-index="2"></div>
+                <div class="carousel-indicator" data-index="3"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div class="deals-section">
+            <div class="section-header">
+                <div class="section-title">Deal of the Day</div>
+                <div style="display: flex; align-items: center;">
+                    <div class="timer"><i class="far fa-clock"></i> <span id="countdown">05:43:21</span> Left</div>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+            </div>
+            
+            <div class="deal-cards">
+                <div class="deal-card">
+                    <div class="discount-badge">50% off</div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9df21a5c-5646-4d22-bb8e-baa713cb79e0.png" alt="Black wireless headphones with folding design and microphone" class="deal-image" />
+                    <div class="deal-title">BoAt Rockerz 450 Bluetooth Headphones with Mic (Carbon Black)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹1,399</span>
+                        <span class="original-price">₹2,990</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.3</span>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="discount-badge">35% off</div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/637c2b34-9cf2-43df-b129-544b57e26770.png" alt="White ceramic electric kettle with 1.5L capacity" class="deal-image" />
+                    <div class="deal-title">Pigeon By Stovekraft Amaze Plus Electric Kettle (1.5 L, White)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹899</span>
+                        <span class="original-price">₹1,399</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.1</span>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="discount-badge">60% off</div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2a16dd82-54f7-4281-b805-9faef63474f8.png" alt="Red cotton printed t-shirt with crew neck and short sleeves" class="deal-image" />
+                    <div class="deal-title">U.S. Polo Assn. Men Printed Cotton T-shirt (Red, Pack of 1)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹499</span>
+                        <span class="original-price">₹1,299</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.0</span>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="discount-badge">30% off</div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7c426b71-1c1c-4dfc-9677-7bfee687e50e.png" alt="Smartwatch with fitness tracking and AMOLED display in rose gold" class="deal-image" />
+                    <div class="deal-title">Fire-Boltt Phoenix Smart Watch with SpO2, Heart Rate Monitoring (Rose Gold)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹1,799</span>
+                        <span class="original-price">₹2,599</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.2</span>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="discount-badge">55% off</div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/671db3c1-bb08-49dc-a96e-a018389087fd.png" alt="Waterproof backpack with laptop compartment and multiple pockets in navy blue" class="deal-image" />
+                    <div class="deal-title">American Tourister School Backpack (Navy Blue)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹799</span>
+                        <span class="original-price">₹1,799</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.4</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div class="products-section">
+            <div class="section-header">
+                <div class="section-title">Top Deals on Electronics</div>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/74d64eaf-bdd3-471c-b50f-1da2ac9f2166.png" alt="OnePlus Nord CE 3 Lite 5G mobile phone with 108MP camera and 67W charging" class="product-image" />
+                    <div class="product-title">OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹21,999</span>
+                        <span class="original-price">₹26,999</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/961d55aa-e5d9-4fa7-9a11-80541c602ff6.png" alt="Samsung Galaxy Tab A8 tablet with 10.5 inch display and quad speakers" class="product-image" />
+                    <div class="product-title">Samsung Galaxy Tab A8 10.5 inches Display, WiFi + LTE Tablet (Gray, 4GB RAM, 64GB Storage)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹15,999</span>
+                        <span class="original-price">₹18,999</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.2</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6fa60fe0-5d9b-40df-a044-481a68463929.png" alt="Dell Inspiron laptop with 14 inch FHD display and Intel Core i5 processor" class="product-image" />
+                    <div class="product-title">Dell Inspiron 14 Laptop, Intel Core i5-1235U/16GB DDR4/512GB SSD/14" FHD/Win 11/Backlit KB/1.48kg</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹56,990</span>
+                        <span class="original-price">₹64,990</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.3</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2af757d1-e3ec-4967-9f59-51ecba683f2f.png" alt="Sony WH-1000XM4 wireless noise cancelling headphones in black" class="product-image" />
+                    <div class="product-title">Sony WH-1000XM4 Wireless Noise Cancelling Headphones (Black)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹24,990</span>
+                        <span class="original-price">₹29,990</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/087e63b3-f866-4787-baa2-12e22ba6feba.png" alt="LG 32 inch smart HD ready LED TV with webOS and AI sound" class="product-image" />
+                    <div class="product-title">LG 32 inch HD Ready Smart LED TV (32LM563BPTC) with WebOS, AI Sound, and Smart Share</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹14,990</span>
+                        <span class="original-price">₹18,990</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.4</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c61effee-1ad8-43da-9abc-95a8df528c5b.png" alt="Logitech wireless mouse with silent clicks and ergonomic design" class="product-image" />
+                    <div class="product-title">Logitech M221 Silent Wireless Mouse, 1000 DPI, 18 Month Battery Life, 2.4 GHz USB - Black</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹695</span>
+                        <span class="original-price">₹995</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.3</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/959a09f4-9322-432b-85b9-6316e9392209.png" alt="Echo Dot 5th generation smart speaker with Alexa in charcoal" class="product-image" />
+                    <div class="product-title">Echo Dot (5th Gen, 2022 release) Smart speaker with Alexa (Charcoal)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹4,499</span>
+                        <span class="original-price">₹5,999</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ded27bf2-d420-48da-b19d-7b4eb16ac380.png" alt="Samsung 256GB microSDXC EVO Plus memory card with adapter" class="product-image" />
+                    <div class="product-title">Samsung EVO Plus 256GB microSDXC UHS-I U3 Memory Card with Adapter (MB-MC256KA)</div>
+                    <div class="deal-price">
+                        <span class="current-price">₹1,599</span>
+                        <span class="original-price">₹2,499</span>
+                    </div>
+                    <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">ShopCart Stories</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>HELP</h3>
+                    <ul>
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Cancellation & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Report Infringement</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>POLICY</h3>
+                    <ul>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">© 2023 ShopCart.com. All Rights Reserved.</div>
+                <div class="footer-icons">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fcb9719b-b1cc-4ce4-862e-79325a083c6c.png" alt="Visa credit card payment method logo" />
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dee65d83-f9c9-4bc7-bbfa-0e25a6e4d14a.png" alt="Mastercard credit card payment method logo" />
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/eaa5a859-6bd4-4a6d-8837-a6715deb330a.png" alt="American Express credit card payment method logo" />
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/997f1d97-3988-4c42-9779-1c62f56f39f9.png" alt="RuPay credit card payment method logo" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="flipkart.js"></script>
+</body>
+</html>
+
